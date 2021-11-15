@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/r_fname"
+        android:layout_width="347dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="@font/pompiere"
+        android:hint="First name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <EditText
+        android:id="@+id/r_lname"
+        android:layout_width="338dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Last name"
+        android:fontFamily="@font/pompiere"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r_fname"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <EditText
+        android:id="@+id/r_email"
+        android:layout_width="255dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:fontFamily="@font/pompiere"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r_lname"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <EditText
+        android:id="@+id/r_phonenumber"
+        android:layout_width="268dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:hint="@string/phone_number"
+        android:fontFamily="@font/pompiere"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r_email"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <EditText
+        android:id="@+id/r_description"
+        android:layout_width="355dp"
+        android:layout_height="114dp"
+        android:background="#E3E0E0"
+        android:ems="10"
+        android:fontFamily="@font/pompiere"
+        android:gravity="center"
+        android:hint="@string/describe_condition"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r_phonenumber"
+        app:layout_constraintVertical_bias="0.161"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/button_record_submit"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:fontFamily="@font/pompiere"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r_description"
+        app:layout_constraintVertical_bias="0.351" />
+
+    <Button
+        android:id="@+id/button_record_cancel"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:fontFamily="@font/pompiere"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.656"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r_description"
+        app:layout_constraintVertical_bias="0.351" />
+
+    <TextView
+        android:id="@+id/r_title"
+        android:layout_width="257dp"
+        android:layout_height="32dp"
+        android:fontFamily="@font/gravitas_one"
+        android:text="@string/patient_records"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

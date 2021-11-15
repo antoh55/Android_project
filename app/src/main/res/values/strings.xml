@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">PatientTracker</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="login">login</string>
+    <string name="fullname">fullname</string>
+    <string name="email">email</string>
+    <string name="signup">Signup</string>
+    <string name="login_here"> <b>login </b> here</string>
+    <string name="signuphere">Create account? <b>Signup</b></string>
+    <string name="welcome">Welcome</string>
+    <string name="patient_tracker">Patient Tracker</string>
+    <string name="saving_lives">Saving lives…</string>
+    <string name="records">Records</string>
+    <string name="diagnose_problem">Diagnose Problem</string>
+    <string name="diagnose">Diagnose</string>
+    <string name="nearby_hospital">Nearby Hospital</string>
+    <string name="medic_contact">Medic_contact</string>
+    <string name="news">News</string>
+    <string name="emergency_call">Emergency call</string>
+    <string name="logo_home">logo_home</string>
+    <string name="emergency">Emergency</string>
+    <string name="contact_medic">Contact Medic</string>
+    <string name="hospital">Hospital</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="patient_records">Patient Records</string>
+    <string name="phone_number">Phone number</string>
+    <string name="describe_condition">Describe condition</string>
+</resources>
